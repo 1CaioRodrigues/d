@@ -1,0 +1,465 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Fênix</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Cursor -->
+    <div class="cursor js-cursor"></div>
+    <!-- Navbar -->
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"> <img src="img/logo-light.png" class="logo-img" alt=""> </a>
+                <!-- <a class="logo" href="index.html"> <h2>CARE<span>X</span></h2> </a> -->
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse scroll-init navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#" data-scroll-nav="0">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="1">SOBRE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="2">SERVIÇO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="3">GALERIA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="4">CONTATO</a></li>
+                </ul>
+                <div class="navbar-right">
+                    <div class="wrap">
+                        <div class="icon"> <i class="fa fa-whatsapp"></i> </div>
+                        <div class="text">
+                            <p>Whatsapp</p>
+                            <h5><a href="tel:8551004444">855 100 4444</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Header Video -->
+    <header class="header">
+        <div class="video-fullscreen-wrap">
+            <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
+            <div class="video-fullscreen-video" data-overlay-dark="6">
+                <video playsinline="" autoplay="" loop="" muted="">
+                    <source src="https://1caiorodrigues.github.io/d/dd.mp4" type="video/mp4" autoplay="" loop="" muted="">
+                    <source src="https://1caiorodrigues.github.io/d/dd.mp4" type="video/webm" autoplay="" loop="" muted="">
+                </video>
+            </div>
+            <div class="v-middle">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h6>Fênix Estética Automotiva</h6>
+                            <h1>Lavagem Automotiva<br>Higienizações  <span>&</span> Limpeza</h1>
+                            <a href="#0" class="button-1 mt-15">ORÇAMENTO<span class="ti-arrow-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Contact Box -->
+   <!-- <div class="contact-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item"> <span class="icon carex-email"></span>
+                        <h5>Email us</h5>
+                        <p>appointment@carex.com</p>
+                        <span class="numb carex-email"></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item"> <span class="icon carex-location-map"></span>
+                        <h5>Our address</h5>
+                        <p>2424 King St. SC 29401 USA</p>
+                        <span class="numb carex-location-map"></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item active"> <span class="icon carex-phone-call"></span>
+                        <h5>Call us</h5>
+                        <p>855 100 4444</p>
+                        <span class="numb carex-phone-call"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!-- About -->
+    <section class="about section-padding" data-scroll-index="1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 valign animate-box" data-animate-effect="fadeInLeft">
+                    <div class="about-two-img full-width mb-30">
+                        <div class="img1 img-grayscale"> <img src="img/about.jpg" class="rounded-1" alt=""> </div>
+                        <div class="img2 img-grayscale"> <img src="img/about2.jpg" class="rounded-1" alt="">
+                            <div class="play-button">
+                                <a href="https://youtu.be/-j9tq0DHta8?si=b3NHp3e0PuLq_fDuclass="class="btn vid">
+                                    <svg width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                        <circle class="circle" cx="50" cy="50" r="48" stroke="white" stroke-width="2" fill="none" />
+                                    </svg> <i class="ti-control-play"></i> </a>
+                            </div>
+                        </div>
+                        <div class="award-icon animate-box" data-animate-effect="fadeInUp">
+                            <div class="star">
+                                <div class="img"> <img src="img/star.png" alt=""> <span class="icon carex-certificate"></span> </div>
+                            </div>
+                            <h6>100%</h6>
+                            <p>Qualidade de serviço</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-md-12 animate-box" data-animate-effect="fadeInRight">
+                    <div class="section-title2">Quem Somos</div>
+                    <div class="section-title">Fêni<span>x</span></div>
+                    
+                    <p class="mb-30">
+                    A Fênix chegou ao mercado com uma proposta de serviço diferenciada. Oferecendo serviços sustentáveis em Limpeza Automotiva, Limpeza Residencial e Empresarial Delivery.
+                    
+                    </p>
+                    <ul class="list-unstyled list mb-30">
+                        <li>
+                            <div class="list-icon"> <span class="ti-check"></span> </div>
+                            <div class="list-text">
+                                <p>Oferecemos vários serviços</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-icon"> <span class="ti-check"></span> </div>
+                            <div class="list-text">
+                                <p>Vários locais de reparo de automóveis</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-icon"> <span class="ti-check"></span> </div>
+                            <div class="list-text">
+                                <p>Higienizações em geral</p>
+                            </div>
+                        </li>
+                    </ul> 
+                    <a href="#" class="button-3">ORÇAMENTO<span class="ti-arrow-right"></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!-- Services -->
+   
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!-- Process -->
+    <section class="process section-padding bg-white" data-scroll-index="2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center mb-30">
+                    <div class="section-title3 white">Alguns</div>
+                    <div class="section-title white">Serviços</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item active"> <span class="icon carex-car-checklist"></span>
+                        <h5>Profissionais da área da limpeza</h5>
+                        <p></p>
+                        <div class="numb">01</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item"> <span class="icon carex-car-2"></span>
+                        <h5>Franquias de Limpeza</h5>
+                        <p></p>
+                        <div class="numb">02</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item"> <span class="icon carex-car-setting"></span>
+                        <h5>Higienização e Limpeza</h5>
+                        <p></p>
+                        <div class="numb">03</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item"> <span class="icon carex-certificate"></span>
+                        <h5>Serviço de Qualidade</h5>
+                        <p></p>
+                        <div class="numb">04</div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!-- Testiominals -->
+     <!--  Gallery Image -->
+    <section class="section-padding" data-scroll-index="3">
+        <div class="container">
+            <div class="row">
+                 <div class="row">
+                <div class="col-md-12 text-center mb-30">
+                    <div class="section-title3">PORTFÓLIO</div>
+                    <div class="section-title">Gale<span>ria</span> </div>
+                </div>
+            </div>
+            
+            
+            </div>
+            <div class="row gallery-items">
+                <div class="col-lg-4 col-md-6 gallery-masonry-wrapper single-item vehicle">
+                   <div class="gallery-box">
+                       <div class="gallery-img img-grayscale"> 
+                          <video class="img-fluid mx-auto d-block" alt="" src="img/gallery/1.m4v" autoplay="" muted="" loop=""></video>
+                       </div>
+                            <div class="gallery-masonry-item-img"></div>
+                    </div>
+                  
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-masonry-wrapper single-item maintenance">
+                    <a href="img/gallery/2.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img img-grayscale"> <img src="img/gallery/2.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            <div class="gallery-masonry-item-img"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-masonry-wrapper single-item maintenance">
+                   <div class="gallery-box">
+                       <div class="gallery-img img-grayscale"> 
+                          <video class="img-fluid mx-auto d-block" alt="" src="img/gallery/2.m4v" autoplay="" muted="" loop=""></video>
+                       </div>
+                            <div class="gallery-masonry-item-img"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-masonry-wrapper single-item vehicle">
+                    <a href="img/gallery/3.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img img-grayscale"> <img src="img/gallery/3.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            <div class="gallery-masonry-item-img"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-masonry-wrapper single-item maintenance">
+                    <a href="img/gallery/5.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img img-grayscale"> <img src="img/gallery/5.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            <div class="gallery-masonry-item-img"></div>
+                        </div>
+                    </a>
+                </div>
+                 <div class="col-lg-4 col-md-6 gallery-masonry-wrapper single-item vehicle">
+                     <div class="gallery-box">
+                       <div class="gallery-img img-grayscale"> 
+                          <video class="img-fluid mx-auto d-block" alt="" src="img/gallery/22.mp4" autoplay="" muted="" loop=""></video>
+                       </div>
+                            <div class="gallery-masonry-item-img"></div>
+                    </div>
+                </div>
+                 
+                 
+                 <div class="col-lg-4 col-md-6 gallery-masonry-wrapper single-item maintenance">
+                    <a href="img/gallery/5.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img img-grayscale"> <img src="img/gallery/5.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                            <div class="gallery-masonry-item-img"></div>
+                        </div>
+                    </a>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+        
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!-- Blog -->
+    <section class="blog1 section-padding">
+        <div class="container">
+        
+        </div>
+        
+    </section>
+    <!-- Appointment -->
+    <section class="appointment">
+        <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/2.jpg" data-overlay-dark="5">
+            <div class="container">
+                <div class="row">
+                    
+                    <!-- Booking From -->
+                   <div class="col-lg-6 offset-lg-1 col-md-12">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients -->
+    <section class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/1.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/2.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/3.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/4.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/5.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="appointment">
+        <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/2.jpg" data-overlay-dark="5">
+            <div class="container">
+                <div class="row">
+                    
+                    <!-- Booking From -->
+                   <div class="col-lg-6 offset-lg-1 col-md-12">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer clearfix" data-scroll-index="4">
+        <div class="container">
+            <!-- first footer -->
+            <div class="first-footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="links dark footer-contact-links">
+                            <div class="footer-contact-links-wrapper">
+                                <div class="footer-contact-link-wrapper">
+                                    <div class="image-wrapper footer-contact-link-icon">
+                                        <div class="icon-footer"> <i class="fa fa-whatsapp"></i> </div>
+                                    </div>
+                                    <div class="footer-contact-link-content">
+                                        <h6>Telefone</h6>
+                                        <p>51 0000 0000</p>
+                                    </div>
+                                </div>
+                                <div class="footer-contact-links-divider"></div>
+                                <div class="footer-contact-link-wrapper">
+                                    <div class="image-wrapper footer-contact-link-icon">
+                                        <div class="icon-footer"> <i class="fa fa-instagram"></i> </div>
+                                    </div>
+                                    <div class="footer-contact-link-content">
+                                        <h6>Instagram</h6>
+                                        <p>@fenixestautomotiva</p>
+                                    </div>
+                                </div>
+                                <div class="footer-contact-links-divider"></div>
+                                <div class="footer-contact-link-wrapper">
+                                    <div class="image-wrapper footer-contact-link-icon">
+                                        <div class="icon-footer"> <i class="carex-location-map"></i> </div>
+                                    </div>
+                                    <div class="footer-contact-link-content">
+                                        <h6>Endereço</h6>
+                                        <p>Porto Alegre, RS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- second footer -->
+            <div class="second-footer">
+               <center><div class="row">
+                    <!-- about & social icons -->
+                    <div class="col-md-12 widget-area centerize-col ">
+                        <div class="widget clearfix">
+                            <div class="footer-logo"><img src="img/logo-light.png" alt=""></div>
+                             <!--<div class="footer-logo text-center"><h2>FÊNI<span>X</span></h2></div> -->
+                            <div class="widget-text">
+                               
+                                <div class="social-icons">
+                                    <ul class="list-inline">
+                                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div></center> 
+            </div>
+            <!-- bottom footer -->
+            <div class="bottom-footer-text">
+                <div class="row copyright">
+                    <div class="col-md-12 text-center">
+                        <p class="mb-0">&copy;2024 Desensolvidor por <a href="#">Caio Rodrigues</a>. Direitos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-migrate-3.4.1.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/before-after.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
